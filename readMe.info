@@ -1,0 +1,31 @@
+To run: node app.js
+
+To debug: node debug app.js
+To see the avalible options for debug mode, use: help
+If you want to debug an explicit line, use: setBreakpoint(n), here set the number line.
+
+********** Create a NPM project
+npm init
+
+To add modules use:
+
+npm install <module> -save, example: npm install express -save 
+
+To unistall a module use:
+
+npm uninstall <module>
+
+When you use: -save, add the module at the package.json
+
+If you have a package.json with all dependencies that you require use:
+
+npm install
+
+If you need a module that update your files after every change that you do, install:
+
+npm install nomode -g 
+
+The letter -g, means that the module will be installed the global way
+
+To use nodemon use: nodemon yourapp.js
+

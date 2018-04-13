@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My view for users</title>
+</head>
+<body>
+	<h1>I am <%= name %> and I have the id: <%= id %> </h1>
+	<p>I am <%= job %> at <%= company %> </p>
+	<p>My expertise is: </p>
+	<ul>
+		<% leng.forEach(function(item) { %>
+		<li> <%= item %> </li>
+		<% }); %>
+	</ul>
+
+</body>
+</html>
